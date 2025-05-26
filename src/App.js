@@ -14,7 +14,7 @@ import {
   Line,
 } from "recharts";
 
-const GameDevDashboard = () => {
+const App = () => {
   const [selectedTab, setSelectedTab] = useState("overview");
 
   // 프로젝트 데이터
@@ -527,4 +527,4 @@ const GameDevDashboard = () => {
   );
 };
 
-export default GameDevDashboard;
+export default App;
